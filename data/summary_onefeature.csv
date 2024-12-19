@@ -1,12 +1,12 @@
 feature,formula,AIC,BIC,log_likelihood,pseudo_r2,converged,accuracy,sensitivity,specificity,tp,fp,tn,fn
-SAA_avg_conc_pg,sample_type_x ~ GA_wks + sex + SAA_avg_conc_pg,56.061,67.437,-24.03,0.455,True,0.929,0.5,0.982,7,2,111,7
-LBP_avg_conc_pg,sample_type_x ~ GA_wks + sex + LBP_avg_conc_pg,59.73,71.107,-25.865,0.413,True,0.913,0.5,0.965,7,4,109,7
-CRP_avg_conc_pg,sample_type_x ~ GA_wks + sex + CRP_avg_conc_pg,70.211,81.588,-31.106,0.294,True,0.929,0.429,0.991,6,1,112,8
-sex,sample_type_x ~ GA_wks + sex + sex,91.174,99.707,-42.587,0.034,True,0.89,0.0,1.0,0,0,113,14
-preeclampsia_gesthtn,sample_type_x ~ GA_wks + sex + preeclampsia_gesthtn,90.378,101.755,-41.189,0.065,True,0.89,0.0,1.0,0,0,113,14
-deliverysum,sample_type_x ~ GA_wks + sex + deliverysum,84.082,95.459,-38.041,0.137,True,0.89,0.0,1.0,0,0,113,14
-PROM,sample_type_x ~ GA_wks + sex + PROM,80.148,91.524,-36.074,0.181,True,0.89,0.0,1.0,0,0,113,14
-clinicalchorio,sample_type_x ~ GA_wks + sex + clinicalchorio,71.495,82.872,-31.747,0.28,True,0.929,0.429,0.991,6,1,112,8
-labor,sample_type_x ~ GA_wks + sex + labor,85.399,96.776,-38.7,0.122,False,0.89,0.0,1.0,0,0,113,14
-route_of_del,sample_type_x ~ GA_wks + sex + route_of_del,86.661,98.038,-39.331,0.108,True,0.89,0.0,1.0,0,0,113,14
-Concentration_ug_uL,sample_type_x ~ GA_wks + sex + Concentration_ug_uL,92.107,103.484,-42.053,0.046,True,0.89,0.0,1.0,0,0,113,14
+SAA_avg_conc_pg,sample_type_x ~ GA_wks + sex + SAA_avg_conc_pg,55.425,66.542,-23.713,0.45,True,0.924,0.5,0.981,7,2,103,7
+LBP_avg_conc_pg,sample_type_x ~ GA_wks + sex + LBP_avg_conc_pg,58.991,70.108,-25.496,0.408,True,0.908,0.429,0.971,6,3,102,8
+CRP_avg_conc_pg,sample_type_x ~ GA_wks + sex + CRP_avg_conc_pg,69.412,80.528,-30.706,0.288,True,0.924,0.429,0.99,6,1,104,8
+sex,sample_type_x ~ GA_wks + sex + sex,90.206,98.544,-42.103,0.023,True,0.882,0.0,1.0,0,0,105,14
+preeclampsia_gesthtn,sample_type_x ~ GA_wks + sex + preeclampsia_gesthtn,88.854,99.971,-40.427,0.062,True,0.882,0.0,1.0,0,0,105,14
+deliverysum,sample_type_x ~ GA_wks + sex + deliverysum,82.989,94.106,-37.495,0.13,True,0.882,0.0,1.0,0,0,105,14
+PROM,sample_type_x ~ GA_wks + sex + PROM,79.623,90.74,-35.812,0.169,True,0.882,0.0,1.0,0,0,105,14
+clinicalchorio,sample_type_x ~ GA_wks + sex + clinicalchorio,70.468,81.585,-31.234,0.275,True,0.924,0.429,0.99,6,1,104,8
+labor,sample_type_x ~ GA_wks + sex + labor,84.252,95.369,-38.126,0.115,False,0.882,0.0,1.0,0,0,105,14
+route_of_del,sample_type_x ~ GA_wks + sex + route_of_del,85.615,96.732,-38.808,0.1,True,0.882,0.0,1.0,0,0,105,14
+Concentration_ug_uL,sample_type_x ~ GA_wks + sex + Concentration_ug_uL,91.093,102.21,-41.547,0.036,True,0.882,0.0,1.0,0,0,105,14
