@@ -8,7 +8,6 @@ This repository stores code & data used in the above manuscript, alongside code 
 * `data/`
 
   Contains both raw data and derived data (model parameters, demographic summaries). 
-  * `allbatchesclin.csv`: Long-format protein detection data per sample per protein, including both batch-adjusted and raw values.
   * `leena_proteins_mean2023_nu037fix.csv`: Wide-format batch-adjusted protein abundance per sample, with rows as samples and columns as proteins.
   * `cord_mesoscaledata_12_9_22.csv`: Biomarker protein concentration quantitated by immunoassay.
   * `ps_metadata_cut.csv`: Sample metadata (gestational age, sex, PROM, etc.).
